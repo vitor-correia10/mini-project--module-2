@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup Form</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Jost:400,700&display=swap" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form">
+        <h1>Signup Form</h1>
+        <div class="form-fields">
+            <label for="cc-name">Full Name:</label>
+            <input type="text" name="cc-name" class="inputs" id="fullName" autocomplete="on" required> </input> 
+        </div>
+        <div class="form-fields">
+            <label for="address-line1">Street addess:</label>
+            <input type="text" name="address-line1" class="inputs" id="address" autocomplete="on" required> </input> 
+        </div>
+        <div class="form-fields">
+            <label for="email" >Email address:</label>
+            <input type="email" name="email" class="inputs" id="email" autocomplete="on" required> </input> 
+        </div>
+        <div class="form-fields">
+            <label for="tel">Phone number:</label>
+            <input type="number" name="tel" class="inputs" id="phoneNumber" autocomplete="on" required> </input> 
+        </div>
+        <div class="form-fields">
+            <label fpr="new-password">Password:</label>
+            <input type="password" name="new-password" class="inputs" id="password" autocomplete="off" required> </input> 
+        </div>
+        <div class="form-fields">
+            <label>Confirm Password:</label>
+            <input type="password" class="inputs" id="confirmPassword" autocomplete="off" required> </input> 
+        </div>
+        <div class="form-term">
+            <input type="checkbox" id="terms" >
+                I agree to the <a href="">terms of service</a>.
+        </div>
+        <div class="error-message">
+        </div>
+        <div class="form-buttons">
+            <button type="submit" class="buttons" id="clear">Clear</button>
+            <button type="submit" class="buttons" id="btnSubmit">Submit</button>
+        </div>
+        
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

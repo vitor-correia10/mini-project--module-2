@@ -1,0 +1,86 @@
+*{
+    font-family: 'Jost', sans-serif;
+}
+
+body{
+    background: #DCDCDC;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+form {
+    background: #ffffff;
+    width: 400px;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+h1{
+    font-size: 2.5em;
+    margin-top: 0;
+}
+
+.form-fields{
+    margin-top:10px;
+    display:flex;
+    justify-content:space-between;
+}
+
+label {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.inputs {
+    width: 50%;
+    border-radius: 8px;
+    padding: 4px;
+    outline: none;
+    border: 1px solid lightgray;
+}
+
+.form-term{
+    margin: 20px 0;
+    padding: 10px;
+    background: #f2f2f2;
+    border-radius: 8px;
+}
+
+.form-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons{
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.5em;
+
+}
+
+#clear {
+    background: hsl(333deg, 100%, 44%);
+}
+
+#btnSubmit {
+    background:hsl(256deg, 100%, 44%);
+}
+
+#error {
+    background: hsla(333deg, 100%, 44%, 0.25);
+}
+
+
+/* Remove arrows from type number */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
